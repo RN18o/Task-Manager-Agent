@@ -90,6 +90,11 @@ graph.add_conditional_edges(
 graph.set_entry_point("planner")
 agent = graph.compile()
 
+image = agent.get_graph().draw_mermaid_png()
+with open('image.png','wb') as f:
+    f.write(image)
+
+
 
 if __name__ == "__main__":
     result = agent.invoke({"user_prompt": "Build a colourful modern todo app in html css and js"},
