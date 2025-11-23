@@ -9,7 +9,7 @@ Task-Manager-Agent is an AI-powered engineering project planner that transforms 
 - **Coder Agent** – Implements each task, writes directly into files, and uses available tools like a real developer.
 
 <div style="display:flex; text-align: center;">
-    <img src="image.png" alt="Coder Agent Architecture" width="20%" height="20%" />
+    <img src="image.png" alt="Coder Agent Architecture" width="20%" height="10%" />
 </div>
 
 ## Features
